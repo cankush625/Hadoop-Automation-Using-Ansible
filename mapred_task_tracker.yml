@@ -1,4 +1,4 @@
-- hosts: namenode
+- hosts: tasktracker
   vars_prompt:
     - name: job_tracker_ip
       prompt: "Enter the job tracker IP"
